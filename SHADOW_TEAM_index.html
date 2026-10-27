@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101a2d">
+<meta name="description" content="Официальная информационная страница SHADOW TEAM: правила сообщества, наказания, расписание мероприятий и контакты руководства PUBG Mobile.">
+<meta name="keywords" content="SHADOW TEAM, Shadow Team PUBG Mobile, правила Shadow Team, расписание Shadow Team, PUBG Mobile clan">
+<meta name="author" content="SHADOW TEAM">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SHADOW TEAM">
+<meta property="og:title" content="SHADOW TEAM — правила, расписание и руководство">
+<meta property="og:description" content="Правила сообщества, система наказаний, расписание и контакты администрации SHADOW TEAM.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SHADOW TEAM">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+
+<title>SHADOW TEAM — правила, расписание и руководство</title>
+<style>
+:root{--bg:#0a1020;--panel:#121d33;--panel2:#172640;--cyan:#8deaff;--blue:#5b9dff;--white:#f4f8ff;--muted:#b3c2d9;--line:rgba(141,234,255,.18)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top,#1a3152 0,#0a1020 55%);color:var(--white);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1100px;margin:auto;padding:0 20px}
+header{padding:24px 0 10px}.top{display:flex;justify-content:space-between;align-items:center;gap:16px}.brand{font-weight:900;letter-spacing:3px;font-size:1.25rem}.brand span{color:var(--cyan)}.badge{border:1px solid var(--line);border-radius:999px;padding:7px 12px;color:var(--cyan);font-size:.82rem}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}nav a{padding:8px 12px;background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:12px;color:var(--white);font-size:.9rem}
+.hero{padding:48px 0 36px}.eyebrow{color:var(--cyan);letter-spacing:3px;font-size:.78rem;font-weight:800}.hero h1{font-size:clamp(2.3rem,7vw,5rem);line-height:1.02;margin:12px 0}.hero h1 span{color:var(--cyan)}.hero p{max-width:650px;color:var(--muted);font-size:1.08rem}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{display:inline-block;padding:12px 17px;border-radius:13px;background:linear-gradient(120deg,#76ddff,#8faaff);color:#071426;font-weight:850}.btn.secondary{background:transparent;color:var(--white);border:1px solid var(--line)}
+section{padding:28px 0;scroll-margin-top:16px}.section-head{margin-bottom:18px}.section-head small{color:var(--cyan);letter-spacing:2px;font-weight:800}.section-head h2{margin:4px 0;font-size:clamp(1.6rem,4vw,2.3rem)}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{background:linear-gradient(150deg,rgba(23,38,64,.96),rgba(15,25,44,.96));border:1px solid var(--line);border-radius:19px;padding:20px;box-shadow:0 12px 34px rgba(0,0,0,.12)}.card h3{margin:0 0 8px}.card p,.card li{color:var(--muted)}.card ul{padding-left:20px;margin-bottom:0}.number{color:var(--cyan);font-size:1.4rem;font-weight:900}.schedule{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.day{display:flex;gap:14px;align-items:flex-start;background:rgba(18,29,51,.9);border:1px solid var(--line);border-radius:16px;padding:16px}.day .emoji{font-size:1.5rem}.day h3{margin:0 0 3px;font-size:1rem}.day p{margin:0;color:var(--muted)}.time{display:inline-block;margin-top:7px;color:var(--cyan);font-size:.85rem;font-weight:800}.notice{margin-top:15px;border:1px solid rgba(141,234,255,.35);background:rgba(91,157,255,.09);border-radius:16px;padding:16px;font-weight:750}.contacts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.rule-tools{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}.rule-tools input,.rule-tools select{background:#101a2d;color:var(--white);border:1px solid var(--line);border-radius:12px;padding:12px;min-width:180px;flex:1}details.rule{background:rgba(18,29,51,.92);border:1px solid var(--line);border-radius:15px;margin:10px 0;overflow:hidden}details.rule summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:850;display:flex;gap:12px;align-items:center}details.rule summary::-webkit-details-marker{display:none}details.rule summary:after{content:"＋";margin-left:auto;color:var(--cyan);font-size:1.2rem}details.rule[open] summary:after{content:"−"}.rule-body{padding:0 18px 18px;color:var(--muted)}.rule-body h4{color:var(--white);margin:14px 0 5px}.rule-body p{margin:5px 0}.penalty{border-left:3px solid var(--cyan);padding:10px 14px;margin:10px 0;background:rgba(141,234,255,.05);border-radius:0 10px 10px 0}.penalty strong{color:var(--white)}.tag{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:3px 8px;color:var(--cyan);font-size:.78rem;margin:3px 4px 3px 0}.small-note{color:var(--muted);font-size:.9rem}.contact .role{font-size:.8rem;color:var(--cyan);font-weight:800;letter-spacing:1px}.contact .handle{font-size:1.1rem;font-weight:850;overflow-wrap:anywhere}.contact p{margin:5px 0 14px;color:var(--muted)}.contact a{display:inline-block;border:1px solid var(--line);padding:8px 12px;border-radius:10px}
+footer{margin-top:30px;padding:26px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}.footrow{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+@media(max-width:760px){.grid,.contacts{grid-template-columns:1fr}.schedule{grid-template-columns:1fr}.hero{padding-top:32px}.top{align-items:flex-start;flex-direction:column}.wrap{padding:0 15px}}
+
+.quick-dock{position:fixed;right:14px;bottom:14px;z-index:50;display:flex;gap:8px;align-items:center}
+.quick-dock a,.quick-dock button{border:1px solid rgba(141,234,255,.35);border-radius:14px;background:rgba(10,16,32,.94);color:#f4f8ff;padding:11px 13px;font:inherit;font-weight:750;box-shadow:0 8px 28px rgba(0,0,0,.28);backdrop-filter:blur(10px);cursor:pointer}
+.quick-dock a:first-child{background:linear-gradient(120deg,#76ddff,#8faaff);color:#071426}
+@media(max-width:560px){.quick-dock{left:10px;right:10px;bottom:10px;justify-content:center}.quick-dock a,.quick-dock button{padding:10px 12px;font-size:.85rem}footer{padding-bottom:76px}}
+
+</style>
+</head>
+<body>
+<header class="wrap">
+ <div class="top"><div class="brand">SHADOW <span>TEAM</span></div><div class="badge">ОФІЦІЙНА СТОРІНКА СПІЛЬНОТИ</div></div>
+ <nav aria-label="Головне меню">
+  <a href="#about">Про нас</a><a href="#rules">Короткі правила</a><a href="#detailed-rules">Подробные правила</a><a href="#penalties">Наказания</a><a href="#schedule">Графік</a><a href="#leadership">Керівництво</a>
+ </nav>
+</header>
+<main>
+ <div class="hero wrap" id="about">
+  <div class="eyebrow">ONE TEAM · ONE SHADOW</div>
+  <h1>SHADOW <span>TEAM</span></h1>
+  <p>Спільнота, де важливі повага, активність і командний дух. Тут зібрані правила, тижневий графік та контакти керівництва.</p>
+  <div class="buttons"><a class="btn" href="#schedule">🗓 Переглянути графік</a><a class="btn secondary" href="#leadership">Зв’язатися з керівництвом</a></div>
+ </div>
+ <section class="wrap" id="rules">
+  <div class="section-head"><small>01 / ПОРЯДОК У СПІЛЬНОТІ</small><h2>Правила SHADOW TEAM</h2><p>Дотримуйтесь правил, щоб спільнота залишалась комфортною для всіх.</p></div>
+  <div class="grid">
+   <article class="card"><div class="number">01</div><h3>Повага до учасників</h3><ul><li>Спілкуйтеся коректно з усіма сокланами.</li><li>Заборонені образи, цькування, погрози та приниження.</li><li>Не переходьте на особисті конфлікти й не провокуйте сварки.</li></ul></article>
+   <article class="card"><div class="number">02</div><h3>Повага до керівництва</h3><ul><li>Виконуйте обґрунтовані організаційні рішення керівництва.</li><li>Якщо не згодні з рішенням — спокійно зверніться до керівника.</li><li>Не зловживайте роллю, правами чи доступом.</li></ul></article>
+   <article class="card"><div class="number">03</div><h3>Активність і присутність</h3><ul><li>Щотижневий графік є обов’язковим для учасників, на яких він поширюється.</li><li>Якщо не можете бути присутніми — завчасно попередьте керівництво.</li><li>Не зникайте надовго без повідомлення.</li></ul></article>
+   <article class="card"><div class="number">04</div><h3>Чат і голосові кімнати</h3><ul><li>Не спамте, не флудіть і не засмічуйте чат.</li><li>Не перебивайте інших у голосі, дотримуйтеся черги.</li><li>Не публікуйте приватні повідомлення чи особисті дані без дозволу.</li></ul></article>
+   <article class="card"><div class="number">05</div><h3>Зйомки та активності</h3><ul><li>Приходьте вчасно та дотримуйтеся домовленостей.</li><li>Під час зйомок виконуйте вказівки відповідального організатора.</li><li>Ставтеся до спільних активностей відповідально.</li></ul></article>
+   <article class="card"><div class="number">06</div><h3>Порушення та рішення</h3><ul><li>Залежно від ситуації керівництво може зробити усне зауваження або попередження.</li><li>Повторні чи серйозні порушення можуть призвести до обмеження участі.</li><li>Перед рішенням враховуються обставини та пояснення учасника.</li></ul></article>
+  </div>
+  <div class="notice">🤍 Головний принцип: повага одне до одного, чесне спілкування та командний дух. Якщо виникла проблема — зверніться до керівництва приватно.</div>
+ </section>
+
+ <section class="wrap" id="detailed-rules">
+  <div class="section-head"><small>02 / ПОЛОЖЕННЯ СПІЛЬНОТИ</small><h2>Подробные правила чата</h2><p>Разделы можно постоянно открывать и закрывать. Нажмите на нужный пункт, чтобы увидеть подпункты и наказания.</p></div>
+  <div class="rule-tools">
+   <input id="ruleSearch" type="search" placeholder="Поиск: оскорбление, спам, мут…" aria-label="Поиск по правилам">
+   <button class="btn" type="button" onclick="toggleRules(true)">Открыть все</button>
+   <button class="btn secondary" type="button" onclick="toggleRules(false)">Закрыть все</button>
+  </div>
+  <div id="ruleList">
+   <details class="rule" open><summary>§1. Активность и присутствие</summary><div class="rule-body">
+    <h4>1.1. Ежедневная и недельная активность</h4><p>Минимум 70 сообщений в день и 500 сообщений в неделю. Сообщения ради накрутки, повторяющийся текст и бессмысленный флуд не считаются полезной активностью.</p><div class="penalty"><strong>Наказание:</strong> устное замечание и просьба восстановить активность. <br><strong>При повторе:</strong> Пред; при систематическом нарушении — рассмотрение руководством.</div>
+    <h4>1.2. Длительное отсутствие</h4><p>Запрещено пропадать более чем на 5 дней без предупреждения администрации. Если планируется отсутствие, сообщите заранее.</p><div class="penalty"><strong>Наказание:</strong> замечание. <br><strong>При повторе:</strong> Пред или пересмотр участия в клане с учётом обстоятельств.</div>
+    <h4>1.3. Накрутка активности</h4><p>Запрещено искусственно повышать количество сообщений однотипным флудом, спамом или бессмысленными символами.</p><div class="penalty"><strong>Наказание:</strong> мут на 5–10 минут. <br><strong>При повторе:</strong> мут на 15 минут + Пред.</div>
+   </div></details>
+   <details class="rule"><summary>§2. Жизнь клана, канал и мероприятия</summary><div class="rule-body">
+    <h4>2.1. Официальный канал</h4><p>Участники должны быть подписаны на официальный Telegram-канал клана и следить за важными объявлениями.</p><div class="penalty"><strong>Наказание:</strong> просьба выполнить требование. <br><strong>При повторе:</strong> замечание от администрации.</div>
+    <h4>2.2. Участие в съёмках</h4><p>Необходимо посещать видеосъёмки минимум 2 раза в неделю. Если не получается прийти, заранее предупредите ответственного администратора.</p><div class="penalty"><strong>Наказание:</strong> замечание при отсутствии без предупреждения. <br><strong>При повторе:</strong> Пред, если отсутствие систематическое и нет уважительной причины.</div>
+    <h4>2.3. Срыв мероприятия</h4><p>Запрещено намеренно мешать съёмкам, турнирам, тренировкам и другим активностям.</p><div class="penalty"><strong>Наказание:</strong> мут на 15 минут. <br><strong>При повторе:</strong> мут на 30 минут + Пред.</div>
+   </div></details>
+   <details class="rule"><summary>§3. Общение, оскорбления и травля</summary><div class="rule-body">
+    <h4>3.1. Оскорбления участников</h4><p>Запрещены прямые оскорбления, унижение, травля, буллинг и намеренные провокации.</p><div class="penalty"><strong>Наказание:</strong> замечание или мут на 10 минут в зависимости от ситуации. <br><strong>При повторе:</strong> мут на 20 минут + Пред.</div>
+    <h4>3.2. Оскорбление родственников</h4><p>Запрещены оскорбления родственников участников, в том числе завуалированные оскорбления, направленные на унижение семьи.</p><div class="penalty"><strong>Наказание:</strong> мут на 30 минут + Пред. <br><strong>При повторе:</strong> мут на 60 минут и рассмотрение вопроса о Block/исключении.</div>
+    <h4>3.3. Угрозы, шантаж и давление</h4><p>Запрещены угрозы, шантаж и принуждение участников к действиям через давление.</p><div class="penalty"><strong>Наказание:</strong> передача ситуации Helper/ГА/ЗГА или Владельцу; при подтверждении — мут на 60 минут + Пред. <br><strong>При повторе:</strong> возможен Block или исключение по решению руководства.</div>
+    <h4>3.4. Провокация конфликтов</h4><p>Запрещено намеренно разжигать ссоры, продолжать спор после просьбы остановиться или переводить конфликт в несколько чатов клана.</p><div class="penalty"><strong>Наказание:</strong> мут на 10–20 минут. <br><strong>При повторе:</strong> мут на 30–60 минут + Пред.</div>
+   </div></details>
+   <details class="rule"><summary>§4. Личные сообщения и конфликты</summary><div class="rule-body">
+    <h4>4.1. Оскорбления в личных сообщениях</h4><p>Запрещено продолжать оскорбления в личных сообщениях из-за конфликта в клане.</p><div class="penalty"><strong>Наказание:</strong> замечание при наличии доказательств. <br><strong>При повторе:</strong> мут на 15 минут + Пред.</div>
+    <h4>4.2. Преследование участника</h4><p>Если человек попросил прекратить нежелательное общение, нельзя продолжать навязчивые сообщения или давление.</p><div class="penalty"><strong>Наказание:</strong> замечание. <br><strong>При повторе:</strong> мут на 15 минут + Пред.</div>
+    <h4>4.3. Публикация личной переписки</h4><p>Запрещено выкладывать переписку ради публичного унижения. Исключение — передача доказательств руководству для рассмотрения жалобы.</p><div class="penalty"><strong>Наказание:</strong> замечание или мут на 15 минут. <br><strong>При повторе:</strong> Пред.</div>
+   </div></details>
+   <details class="rule"><summary>§5. Администрация и жалобы</summary><div class="rule-body">
+    <h4>5.1. Неуважение к администрации</h4><p>Запрещено мешать администратору выполнять обязанности, оскорблять его или намеренно срывать разбор ситуации. Спокойно не соглашаться и обжаловать решение разрешено.</p><div class="penalty"><strong>Наказание:</strong> замечание. <br><strong>При повторе:</strong> мут на 15 минут + Пред.</div>
+    <h4>5.2. Выдача себя за администратора</h4><p>Запрещено притворяться администратором, использовать его имя для введения участников в заблуждение или распространять ложные сообщения от его имени.</p><div class="penalty"><strong>Наказание:</strong> мут на 20 минут + Пред. <br><strong>При повторе:</strong> мут на 60 минут и рассмотрение вопроса о Block.</div>
+    <h4>5.3. Ложные жалобы и обход решений</h4><p>Запрещено сознательно подавать ложные жалобы или обращаться к другим администраторам, чтобы обойти уже принятое решение. Добросовестная жалоба, которая не подтвердилась, нарушением не считается.</p><div class="penalty"><strong>Наказание:</strong> замечание. <br><strong>При повторе:</strong> мут на 15 минут + Пред.</div>
+   </div></details>
+   <details class="rule"><summary>§6. Набор и реклама</summary><div class="rule-body">
+    <h4>6.1. Реклама без разрешения</h4><p>Запрещена реклама сторонних чатов, кланов, каналов, услуг и наборов без разрешения администрации.</p><div class="penalty"><strong>Наказание:</strong> мут на 10 минут. <br><strong>При повторе:</strong> мут на 30 минут + Пред.</div>
+    <h4>6.2. Спам кандидатам</h4><p>Запрещено навязчиво писать кандидатам или сокланам с целью переманить их в другой клан.</p><div class="penalty"><strong>Наказание:</strong> замечание. <br><strong>При повторе:</strong> мут на 20 минут + Пред.</div>
+    <h4>6.3. Переманивание во время официального набора</h4><p>Намеренно переманивать кандидатов во время официального набора клана запрещено.</p><div class="penalty"><strong>Наказание:</strong> замечание. <br><strong>При повторе:</strong> мут на 20 минут + Пред.</div>
+    <h4>6.4. Ложные сведения о вступлении</h4><p>Запрещено распространять ложную информацию о требованиях к вступлению или выдавать личное мнение за официальные условия.</p><div class="penalty"><strong>Наказание:</strong> замечание. <br><strong>При повторе:</strong> мут на 15 минут + Пред.</div>
+   </div></details>
+   <details class="rule"><summary>§7. Боты и административные команды</summary><div class="rule-body">
+    <h4>7.1. Команды бота ради спама</h4><p>Использование команд бота для засорения чата запрещено.</p><div class="penalty"><strong>Наказание:</strong> мут на 5 минут. <br><strong>При повторе:</strong> мут на 15 минут.</div>
+    <h4>7.2. Команды без разрешения</h4><p>Попытка использовать административные команды без соответствующих прав или разрешения запрещена.</p><div class="penalty"><strong>Наказание:</strong> замечание. <br><strong>При повторе:</strong> мут на 15 минут + Пред.</div>
+    <h4>7.3. Наказание без основания</h4><p>Выдавать мут, Пред, Block или иное наказание без причины запрещено.</p><div class="penalty"><strong>Наказание:</strong> разбор ситуации с руководителем. <br><strong>При повторе:</strong> 1 Пред администрации.</div>
+    <h4>7.4. Злоупотребление баллами</h4><p>Запрещено намеренно злоупотреблять командами начисления/снятия баллов или выдавать баллы себе и знакомым в обход правил.</p><div class="penalty"><strong>Наказание:</strong> проверка действий и отмена необоснованных баллов; за выдачу себе/знакомым — 1 Пред администрации. <br><strong>При повторе:</strong> 2 Пред.</div>
+    <h4>7.5. Подделка отчётов</h4><p>Запрещено намеренно изменять отчёт ради дополнительных баллов.</p><div class="penalty"><strong>Наказание:</strong> пересмотр отчёта и отмена необоснованных баллов. <br><strong>При повторе:</strong> 1 Пред администрации.</div>
+    <h4>7.6. Обход ограничений</h4><p>Попытка обойти ограничения бота или внутренней системы наказаний запрещена.</p><div class="penalty"><strong>Наказание:</strong> замечание. <br><strong>При повторе:</strong> 1 Пред.</div>
+    <h4>7.7. Провокация ботом</h4><p>Использование бота для провокации участников запрещено.</p><div class="penalty"><strong>Наказание:</strong> замечание. <br><strong>При повторе:</strong> мут на 10 минут.</div>
+   </div></details>
+   <details class="rule"><summary>§8. Обман и подделка доказательств</summary><div class="rule-body">
+    <h4>8.1. Ложная информация администрации</h4><p>Запрещено сознательно предоставлять администрации ложные сведения.</p><div class="penalty"><strong>Наказание:</strong> замечание. <br><strong>При повторе:</strong> мут на 10 минут + Пред.</div>
+    <h4>8.2. Подделка скриншотов и доказательств</h4><p>Запрещено изменять или создавать фальшивые доказательства, чтобы обвинить участника или избежать наказания.</p><div class="penalty"><strong>Наказание:</strong> мут на 30 минут + Пред. <br><strong>При повторе:</strong> мут на 60 минут + Пред.</div>
+    <h4>8.3. Намеренная подстава</h4><p>Запрещено намеренно провоцировать ситуацию, чтобы представить другого участника нарушителем.</p><div class="penalty"><strong>Наказание:</strong> мут на 30 минут + Пред. <br><strong>При повторе:</strong> мут на 60 минут + Пред.</div>
+    <h4>8.4. Обман ради снятия наказания</h4><p>Запрещено намеренно вводить администрацию в заблуждение, чтобы снять действующее наказание.</p><div class="penalty"><strong>Наказание:</strong> замечание или мут на 15 минут. <br><strong>При повторе:</strong> мут на 30 минут + Пред.</div>
+   </div></details>
+   <details class="rule"><summary>§9. Конфиденциальность и личные данные</summary><div class="rule-body">
+    <h4>9.1. Слив внутренних переписок</h4><p>Запрещено публиковать внутренние переписки и закрытую информацию клана без разрешения.</p><div class="penalty"><strong>Наказание:</strong> замечание или мут на 15 минут. <br><strong>При повторе:</strong> Пред; серьёзные случаи рассматривает руководство.</div>
+    <h4>9.2. Скриншоты и видео с сокланами</h4><p>Не публикуйте материалы с участниками без их согласия, если это может нарушить их приватность или правила конкретного мероприятия.</p><div class="penalty"><strong>Наказание:</strong> просьба удалить материал и замечание. <br><strong>При повторе:</strong> Пред.</div>
+    <h4>9.3. Личные данные</h4><p>Запрещено раскрывать чужой адрес, номер телефона, пароли, документы и другие личные данные.</p><div class="penalty"><strong>Наказание:</strong> немедленная передача руководству; возможен Block или исключение с учётом тяжести.</div>
+   </div></details>
+   <details class="rule"><summary>§10. Спам, оффтоп и контент</summary><div class="rule-body">
+    <h4>10.1. Флуд и спам</h4><p>Запрещено отправлять много одинаковых или бессмысленных сообщений подряд.</p><div class="penalty"><strong>Наказание:</strong> мут на 5 минут. <br><strong>При повторе:</strong> мут на 15 минут.</div>
+    <h4>10.2. Стикеры, GIF и оффтоп</h4><p>Не засоряйте чат чрезмерным количеством стикеров, GIF и сообщениями не по теме, особенно во время важных объявлений.</p><div class="penalty"><strong>Наказание:</strong> замечание. <br><strong>При повторе:</strong> мут на 5–10 минут.</div>
+    <h4>10.3. Запрещённый контент</h4><p>Запрещены материалы 18+, порнография и шок-контент.</p><div class="penalty"><strong>Наказание:</strong> удаление материала и мут на 30 минут; тяжёлые случаи передаются руководству.</div>
+    <h4>10.4. Голосовой чат</h4><p>Запрещено намеренно кричать, перебивать, включать громкую музыку или мешать разговору.</p><div class="penalty"><strong>Наказание:</strong> предупреждение. <br><strong>При повторе:</strong> отключение микрофона/удаление из голосовой комнаты, если доступно, и Пред при систематическом нарушении.</div>
+   </div></details>
+   <details class="rule"><summary>§11. Повторные нарушения и рецидив</summary><div class="rule-body">
+    <h4>11.1. Что считается повтором</h4><p>Рецидив — повторное нарушение того же пункта после ранее выданного наказания.</p>
+    <h4>11.2. Усиление наказания</h4><p>При повторе срок мута может быть увеличен; при систематических нарушениях может быть выдан дополнительный Пред.</p>
+    <h4>11.3. Передача руководству</h4><p>Если участник продолжает нарушать правила, вопрос может быть передан ГА или ЗГА, а при серьёзном случае — Helper или Владельцу.</p>
+    <h4>11.4. Соразмерность</h4><p>За незначительное нарушение не следует сразу выдавать максимальное наказание. За серьёзные нарушения, угрозы, оскорбление родственников, мошенничество или разглашение личных данных возможно более строгое решение.</p>
+    <h4>11.5. Не автоматический Block</h4><p>Повторное нарушение не означает автоматический Block. Решение зависит от тяжести, доказательств и предыдущих наказаний.</p>
+    <h4>11.6. Одно нарушение — одно обоснованное наказание</h4><p>Нельзя выдавать несколько одинаковых наказаний за один проступок без отдельного основания. Если участник исправился, это может учитываться при следующем разборе.</p>
+   </div></details>
+   <details class="rule"><summary>§12. Обжалование наказаний</summary><div class="rule-body">
+    <h4>12.1. Право на жалобу</h4><p>Участник может попросить пересмотреть наказание. Укажите причину, пункт правил и приложите доказательства, если они есть.</p>
+    <h4>12.2. Спокойное обращение</h4><p>Запрещено оскорблять администратора во время обжалования. Спокойное несогласие с решением не является нарушением.</p>
+    <h4>12.3. К кому обращаться</h4><p>Если решение администратора вызывает сомнения, обратитесь к ГА или ЗГА. Жалобу на администратора не должен единолично рассматривать сам обвиняемый администратор.</p>
+    <h4>12.4. Ошибочное наказание</h4><p>Если наказание выдано ошибочно, его необходимо исправить и при необходимости снять Пред. Нельзя наказывать человека только за спокойную подачу жалобы.</p>
+   </div></details>
+   <details class="rule"><summary>§13. Полномочия и обязанности администрации</summary><div class="rule-body">
+    <h4>13.1. Знание правил</h4><p>Администратор обязан знать правила и применять их одинаково ко всем участникам.</p>
+    <h4>13.2. Запрет самоуправства</h4><p>Нельзя придумывать наказания на месте без основания или выдавать их из-за личной неприязни, дружбы, мести или обиды.</p>
+    <h4>13.3. Спорные ситуации</h4><p>В спорных ситуациях администратор обращается к руководителю, а не усиливает наказание самостоятельно.</p>
+    <h4>13.4. Иерархия</h4><p>ГА и ЗГА контролируют работу администрации в пределах полномочий. Helper и Владелец рассматривают серьёзные спорные ситуации. Лидер состава отвечает за порядок в своём составе и передаёт серьёзные нарушения соответствующему руководству.</p>
+    <h4>13.5. Доказательства и конфиденциальность</h4><p>Администрация сохраняет доказательства серьёзных нарушений до окончания разбирательства и не разглашает внутренние обсуждения, кроме случаев, необходимых для жалобы или защиты участника.</p>
+    <h4>13.6. Отчётность</h4><p>Администратор обязан сообщать руководству о серьёзных нарушениях и указывать причину, номер пункта и срок наказания.</p>
+   </div></details>
+   <details class="rule"><summary>§14. Система наказаний и обозначения</summary><div class="rule-body">
+    <p><span class="tag">Замечание</span> Незначительное нарушение или первое спокойное напоминание.</p>
+    <p><span class="tag">Мут</span> Временное ограничение общения в чате на указанный срок.</p>
+    <p><span class="tag">Пред</span> Официальное предупреждение участнику; для администратора — предупреждение администрации.</p>
+    <p><span class="tag">Block</span> Блокировка или исключение в рамках правил и доступных инструментов клана.</p>
+    <p><span class="tag">Снятие роли</span> Лишение административной должности по решению уполномоченного руководства.</p>
+    <p><span class="tag">Рецидив</span> Повторное нарушение того же пункта после предыдущего наказания.</p>
+    <h4>14.1. Общий порядок</h4><p>Перед наказанием администратор проверяет обстоятельства и доказательства. Наказание должно соответствовать нарушению. При необходимости указываются номер пункта, причина и срок.</p>
+    <h4>14.2. Три Преда</h4><p>3 Преда участнику — основание для рассмотрения вопроса об исключении из клана. Руководство учитывает тяжесть нарушений и обстоятельства.</p>
+    <h4>14.3. Серьёзные нарушения</h4><p>За угрозы, оскорбления родственников, раскрытие личных данных, мошенничество и подделку доказательств возможно сразу применить более строгое наказание после проверки ситуации.</p>
+   </div></details>
+   <details class="rule"><summary>§15. Формат выдачи наказания</summary><div class="rule-body">
+    <p>Для прозрачности администрация использует единый формат:</p><div class="penalty"><strong>Нарушитель:</strong> @username<br><strong>Пункт нарушения:</strong> 1.1<br><strong>Наказание:</strong> мут на 5 минут<br><strong>Причина:</strong> краткое описание нарушения<br><strong>Доказательства:</strong> ссылка/скриншот при наличии<br><strong>Администратор:</strong> @username</div>
+    <p>Не выдавайте наказание без причины и не публикуйте личные данные участника.</p>
+   </div></details>
+  </div>
+  <div class="notice">Важно: эти правила — внутренняя система сообщества. Владелец и старшее руководство могут уточнять их, заранее сообщая участникам об изменениях. В спорных случаях учитываются доказательства, тяжесть нарушения и объяснения сторон.</div>
+ </section>
+ <section class="wrap" id="penalties">
+  <div class="section-head"><small>03 / БЫСТРАЯ ПАМЯТКА</small><h2>Наказания за нарушения</h2><p>Краткий справочник, чтобы администраторы могли быстро выбрать меру и свериться с подробным пунктом.</p></div>
+  <div class="grid">
+   <article class="card"><h3>💬 Общение</h3><p><span class="tag">Первый случай</span> замечание или мут 10 минут</p><p><span class="tag">Повтор</span> мут 20 минут + Пред</p><p>Оскорбление родственников: мут 30 минут + Пред; при повторе — 60 минут и рассмотрение Block/исключения.</p></article>
+   <article class="card"><h3>📨 Спам и флуд</h3><p><span class="tag">Первый случай</span> мут 5 минут</p><p><span class="tag">Повтор</span> мут 15 минут</p><p>Реклама без разрешения: мут 10 минут; при повторе — 30 минут + Пред.</p></article>
+   <article class="card"><h3>🛡️ Обман и доказательства</h3><p>Подделка доказательств: мут 30 минут + Пред.</p><p>При повторе: мут 60 минут + Пред.</p><p>Ложная жалоба, поданная сознательно: замечание; при повторе — мут 15 минут + Пред.</p></article>
+   <article class="card"><h3>🤖 Бот и баллы</h3><p>Спам командами: мут 5 минут, при повторе — 15 минут.</p><p>Начисление баллов в обход правил: отмена баллов + Пред администрации.</p><p>Подделка отчёта: пересмотр отчёта и отмена необоснованных баллов.</p></article>
+   <article class="card"><h3>📅 Активность</h3><p>Первое отсутствие без предупреждения: замечание.</p><p>Систематическое отсутствие: Пред или рассмотрение участия в клане с учётом причины.</p><p>Накрутка сообщений: мут 5–10 минут; при повторе — 15 минут + Пред.</p></article>
+   <article class="card"><h3>⛔ Серьёзные нарушения</h3><p>Угрозы, шантаж, публикация личных данных, мошенничество и намеренная подделка доказательств передаются старшему руководству.</p><p>В тяжёлых случаях возможно немедленное ограничение участия или исключение после проверки.</p></article>
+  </div>
+ </section>
+
+ <section class="wrap" id="schedule">
+  <div class="section-head"><small>04 / ПЛАН НА ТИЖДЕНЬ</small><h2>🗓 Тижневий графік</h2><p>Час вказано за місцевим часом спільноти. Якщо не можете бути присутніми, попередьте заздалегідь.</p></div>
+  <div class="schedule">
+   <div class="day"><div class="emoji">🎬</div><div><h3>Понеділок — зйомки</h3><p>Зйомки спільного контенту, після них граємо «Вовки».</p><span class="time">21:00</span></div></div>
+   <div class="day"><div class="emoji">👨‍💻</div><div><h3>Вівторок — кіновечір</h3><p>Дивимося фільм у Discord разом із сокланами.</p><span class="time">Час узгоджується в чаті</span></div></div>
+   <div class="day"><div class="emoji">🤳</div><div><h3>Середа — зйомки та войс</h3><p>Зйомки, після них збираємося в голосовій кімнаті.</p><span class="time">21:00</span></div></div>
+   <div class="day"><div class="emoji">💣</div><div><h3>Четвер — «Вовки»</h3><p>Спільна гра для учасників клану.</p><span class="time">21:00–22:30</span></div></div>
+   <div class="day"><div class="emoji">😈</div><div><h3>П’ятниця — мафія</h3><p>Граємо в мафію разом.</p><span class="time">21:00–22:00</span></div></div>
+   <div class="day"><div class="emoji">💤</div><div><h3>Субота — відпочинок</h3><p>День відпочинку та вільного часу.</p><span class="time">Без обов’язкової активності</span></div></div>
+   <div class="day"><div class="emoji">👾</div><div><h3>Неділя — войс</h3><p>Збираємося в голосовій кімнаті, спілкуємося та обговорюємо плани.</p><span class="time">21:00</span></div></div>
+  </div>
+  <div class="notice">🤍 ПРИСУТНІСТЬ ОБОВ’ЯЗКОВА 🤍<br><span style="font-weight:500;color:var(--muted)">Якщо вас не буде — завчасно напишіть керівництву. Попередження за відсутність застосовується з урахуванням причини та попереднього повідомлення.</span></div>
+ </section>
+ <section class="wrap" id="leadership">
+  <div class="section-head"><small>05 / КОНТАКТИ</small><h2>Зв’язок із керівництвом</h2><p>Пишіть щодо графіка, правил, конфліктів або організаційних питань.</p></div>
+  <div class="contacts">
+   <article class="card contact"><div class="role">ВЛАСНИЦЯ</div><div class="handle">@gVikttoria</div><p>Загальні питання та важливі рішення щодо спільноти.</p><a href="https://t.me/gVikttoria" target="_blank" rel="noopener">Написати в Telegram ↗</a></article>
+   <article class="card contact"><div class="role">HELPER</div><div class="handle">@kapitan_pz</div><p>Допомога учасникам та питання щодо роботи адміністрації.</p><a href="https://t.me/kapitan_pz" target="_blank" rel="noopener">Написати в Telegram ↗</a></article>
+   <article class="card contact"><div class="role">ЛІДЕР SHADOW ESPORTS</div><div class="handle">@s9fix_d</div><p>Питання щодо команди Shadow eSports.</p><a href="https://t.me/s9fix_d" target="_blank" rel="noopener">Написати в Telegram ↗</a></article>
+  </div>
+  <p style="color:var(--muted);margin-top:16px;font-size:.9rem">Примітка: посилання відкривають профілі Telegram за вказаними юзернеймами. Якщо профіль має інше посилання або закритий, знайдіть користувача в Telegram вручну.</p>
+ </section>
+</main>
+<footer><div class="wrap footrow"><div><strong>SHADOW TEAM</strong><br>Повага. Єдність. Активність.</div><div>Сторінка спільноти · адаптована для телефона й комп’ютера</div></div></footer>
+
+
+<div class="quick-dock" aria-label="Быстрые действия">
+  <a href="#rules">Правила</a>
+  <a href="#schedule">Графік</a>
+  <button type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Наверх">↑ Наверх</button>
+</div>
+
+<script>
+function toggleRules(open) {
+  document.querySelectorAll('#ruleList details.rule').forEach(el => el.open = open);
+}
+document.getElementById('ruleSearch').addEventListener('input', function () {
+  const q = this.value.trim().toLocaleLowerCase();
+  document.querySelectorAll('#ruleList details.rule').forEach(section => {
+    const matches = section.textContent.toLocaleLowerCase().includes(q);
+    section.style.display = matches ? '' : 'none';
+    if (q && matches) section.open = true;
+  });
+});
+</script>
+
+</body>
+</html>
